@@ -7,7 +7,7 @@ const todos = [
 ];
 
 const server = http.createServer((req, res) => {
-    //listneing data from client
+    //listening data from client
     const{method, url} = req;
     let body =[];
 
